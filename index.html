@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Affan Mst</a>
+    </div>
+
+    <div class="right">
+      <a href="http://instagram.com/affanmst" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-square-instagram"></i>
+        <span>Instagram</span>
+      </a>
+      
+      <a href="http://linkedin.com/in/affan-mustafidz" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+      
+      <a href="mailto:affanmst@hotmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hai, Saya Affan Mst</h2>
+        <p>Saya adalah Seorang Profesional <em>Multi-Skilled</em> dengan fondasi di bidang <strong><em>Administrasi dan Operasional</em></strong>, didukung oleh pengalaman langsung lebih dari 2 Tahun di sektor <strong><em>Ekspedisi dan Ritel</em></strong>. Selama karier, saya telah mengembangkan kemampuan untuk mengelola data sensitif, memastikan akurasi inventaris, dan mengoptimalkan efisiensi pengiriman dan penjualan. </p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#testimony">
+            <i class="fa-solid fa-pen"></i>
+            <span>Pengalaman</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Hubungi</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="images/hero-headshot.webp" alt="john doe headshot">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        <p>Mengedepankan kemampuan <strong>Kepemimpinan</strong> dan <strong>Komunikasi</strong> yang baik, dalam membangun sinergi mengoptimalkan kinerja tim.</p>
+        <p>Selain itu pengetahuan bidang <strong>Administrasi</strong> dan <strong>Sistem Aplikasi Data Processing</strong> menjadi acuan dalam menjalankan Operasional Perusahaan.</p>
+        <p>Kemampuan <strong>Analisa Data</strong> yang saya miliki juga menjadi standar dalam mengambil Keputusan atau meningkatkan Performa Perusahaan.</p>
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="sap logo">
+          <span>SAP</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/javascript-logo.webp" alt="css logo">
+          <span>TMS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="javascript logo">
+          <span>Data Analysis</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/node-logo.webp" alt="node logo">
+          <span>Adsanse</span>
+        </div>
+        
+        <div class="cell">
+          <img src="images/react-logo.webp" alt="react logo">
+          <span>Microsoft Excel</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: Testimony -->
+    <section id="testimony" class="testimony-section">
+      <h2>Pengalaman</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="images/testimony-headshot.webp">
+          <p>Affan Mst</p>
+          <p>Berikut Daftar Pengalaman Kerja Saya</p>
+        </div>
+
+        <div class="text">
+          <p><strong>Shift Leader</strong> - SPX Express  <em>(2025-Sekarang)</em></p>
+          <p><strong>Staff Administrasi</strong> - ACE Hardware <em>(2023-2024)</em></p>
+          <p><strong>Marketing</strong> - HD Collection <em>(2022-2023)</em></p>
+          <p><strong>Konten Kreator</strong> - YouTube <em>(2021-2022)</em></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Kontak</h2>
+
+      <div class="group">
+        <div class="text">
+          <p>Anda dapat menghubungi saya melalui formulir di bawah ini atau melalui email di alamat berikut:</p>
+        </div>
+
+        <form>
+          <label for="name">Nama</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Pesan</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+
+          <button type="submit">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
